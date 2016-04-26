@@ -126,6 +126,7 @@
     height: 100vh;
     display: flex;
     text-align: center;
+   
   }
   section .title {
     width: 100%;
@@ -266,6 +267,7 @@
 
 canvas {
 	position: absolute;
-	top: 0;
+	top: 10px;
 	left: 0;
 }
+
