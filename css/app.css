@@ -56,7 +56,7 @@
     content: "";
     position: absolute;
     bottom: 2px;
-    top: 2px;
+/*    top: 2px;*/
     left: 0;
     width: 100%;
     height: 5px;
@@ -265,9 +265,5 @@
     }
   }
 
-canvas {
-	position: absolute;
-	top: 10px;
-	left: 0;
-}
+
 
