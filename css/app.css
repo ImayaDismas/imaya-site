@@ -594,6 +594,9 @@ figure.snip1091.hover figcaption:after {
     font-weight: bolder;
     letter-spacing: 1px;
 }
+.port{
+    margin-top: 70px;
+}
 /*About section*/
 
 .wrapper {
@@ -608,8 +611,14 @@ figure.snip1091.hover figcaption:after {
 .quote {
     font-style: italic;
     font-family: Marion;
-    padding: 20px 10%;
+    padding: 32px 10%;
     font-size: 2em;
+}
+.skills{
+    font-style: italic;
+    font-family: Marion;
+    padding: 10px 10%;
+    font-size: 1.69122em;
 }
 
 /*Social media icons*/
