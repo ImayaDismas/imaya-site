@@ -467,7 +467,6 @@ a:hover::after {
 
 /*Portfolio*/
 
-
 figure.snip1091 {
     font-family: 'Raleway', sans-serif;
     position: relative;
@@ -588,8 +587,109 @@ figure.snip1091:hover figcaption:after,
 figure.snip1091.hover figcaption:after {
     width: 200%;
 }
-.page_header{
+
+.page_header {
     text-align: center;
     color: #DAA520;
     font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+
+/*Social media icons*/
+
+.links-container {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.contact-links {
+    width: 100%;
+    text-align: center;
+}
+
+.contact-links > li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.contact-links > li a {
+    position: relative;
+    text-decoration: none;
+    background: #1B1725;
+    display: block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.contact-links > li a:before {
+    content: "";
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    width: 85%;
+    height: 85%;
+    opacity: 0.8;
+    border: 1px solid #1B1725;
+    border-radius: 50%;
+    -webkit-transition: opacity 0.4s ease, -webkit-transform 0.5s ease;
+    transition: opacity 0.4s ease, -webkit-transform 0.5s ease;
+    transition: opacity 0.4s ease, transform 0.5s ease;
+    transition: opacity 0.4s ease, transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.no-touch .contact-links > li a:hover:before {
+    opacity: 0;
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+}
+
+.no-touch .contact-links > li a:hover span.fa {
+    -webkit-animation: 0.5s slide-icon cubic-bezier(0.694, 0.048, 0.335, 1) 0s;
+    animation: 0.5s slide-icon cubic-bezier(0.694, 0.048, 0.335, 1) 0s;
+}
+
+.contact-links > li a:focus {
+    opacity: 0.85;
+}
+
+.contact-links > li a span {
+    font-size: 2.5em;
+    line-height: 80px;
+    color: #fff;
+}
+
+@-webkit-keyframes slide-icon {
+    49% {
+        -webkit-transform: translateX(-80px);
+        transform: translateX(-80px);
+        opacity: 0;
+    }
+    50% {
+        -webkit-transform: translateX(80px);
+        transform: translateX(80px);
+    }
+    80% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-icon {
+    49% {
+        -webkit-transform: translateX(-80px);
+        transform: translateX(-80px);
+        opacity: 0;
+    }
+    50% {
+        -webkit-transform: translateX(80px);
+        transform: translateX(80px);
+    }
+    80% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
