@@ -8,8 +8,7 @@
     <meta name="author" content="ImayaDismas">
     <meta name="description" content="description here">
     <meta name="keywords" content="keywords,here">
-    <!--Lnks to all style sheets are here. I am linking to my folders -->
-    <!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway" type='text/css'>-->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/foundation.css" type="text/css" />
     <link rel="stylesheet" href="css/app.css" type="text/css" />
     <script src="js/modernizr.js"></script>
@@ -66,51 +65,84 @@
             </div>
         </div>
     </div>
-
+    
     <div class="row">
-        <div class="small-4 columns">
-
-            <div class="portfolio-item">
-                <div class="figure">
-                    <img src="https://dl.dropboxusercontent.com/u/23293226/codepen-portfolio/quote.jpg" alt="" />
-                    <div class="caption">
-                        <h3>Random Quote Generator</h3>
-                        <p>Get random quote and tweet it</p>
-                        <a target="_blank" href="http://codepen.io/golle404/full/BomONa"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="small-4 columns">
-            <div class="portfolio-item">
-                <div class="figure">
-                    <img src="https://dl.dropboxusercontent.com/u/23293226/codepen-portfolio/pomodoro.jpg" alt="" />
-                    <div class="caption">
-                        <h3>Pomodoro Clock</h3>
-                        <p>Time your work session</p>
-                        <a target="_blank" href="http://codepen.io/golle404/full/BoJJZa"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="small-4 columns">
-            <div class="portfolio-item">
-                <div class="figure">
-                    <img src="https://dl.dropboxusercontent.com/u/23293226/codepen-portfolio/calc.jpg" alt="" />
-                    <div class="caption">
-                        <h3>Calculator</h3>
-                        <p>Fancy little calculator</p>
-                        <a target="_blank" href="http://codepen.io/golle404/full/zvRdZw"></a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+    <div class="small-12 columns">
+        <h1 class="page_header">ABOUT</h1>
     </div>
+</div>
+
+
+<div class="row">
+    <div class="small-12 columns">
+        <h1 class="page_header">SKILLS</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-12 columns">
+        <h1 class="page_header"> PORTFOLIO</h1>
+    </div>
+    <div class="small-4 columns">
+        <figure class="snip1091 red"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample6.jpg" alt="sq-sample6" />
+            <figcaption>
+                <h2>InfoPark  <span>App</span></h2>
+            </figcaption>
+            <a href="#"></a>
+        </figure>
+    </div>
+    <div class="small-4 columns">
+        <figure class="snip1091 green hover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample14.jpg" alt="sq-sample14" />
+            <figcaption>
+                <h2>Fan4Fun   <span>App</span></h2>
+            </figcaption>
+            <a href="#"></a>
+        </figure>
+    </div>
+    <div class="small-4 columns">
+        <figure class="snip1091 navy"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample10.jpg" alt="sq-sample10" />
+            <figcaption>
+                <h2>SwifTech  <span>App</span></h2>
+            </figcaption>
+            <a href="#"></a>
+        </figure>
+    </div>
+
+    <!--        This is the next line-->
+    <br>
+    <br>
+
+    <div class="small-4 columns">
+        <figure class="snip1091 red"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample6.jpg" alt="sq-sample6" />
+            <figcaption>
+                <h2>InfoPark  <span>App</span></h2>
+            </figcaption>
+            <a href="#"></a>
+        </figure>
+    </div>
+    <div class="small-4 columns">
+        <figure class="snip1091 green hover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample14.jpg" alt="sq-sample14" />
+            <figcaption>
+                <h2>Fan4Fun   <span>App</span></h2>
+            </figcaption>
+            <a href="#"></a>
+        </figure>
+    </div>
+    <div class="small-4 columns">
+        <figure class="snip1091 navy"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample10.jpg" alt="sq-sample10" />
+            <figcaption>
+                <h2>SwifTech  <span>App</span></h2>
+            </figcaption>
+            <a href="#"></a>
+        </figure>
+    </div>
+</div>
+    
+    
 
     <div class="row">
         <div class="small-12 columns">
-
+            <h1 class="page_header">CONTACT</h1>
         </div>
     </div>
 
@@ -164,8 +196,14 @@
             });
         }
     </script>
-    <script type="text/javascript">
-            </script>
+   <script type="text/javascript">
+         /* Demo purposes only */
+          $("figure").mouseleave(
+            function() {
+              $(this).removeClass("hover");
+            }
+          );
+    </script>
 </body>
 
 </html>
