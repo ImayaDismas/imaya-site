@@ -607,6 +607,13 @@ figure.snip1091.hover figcaption:after {
     border-radius: 6px;
     box-shadow: 0 15px 20px -12px rgba(0, 0, 0, 0.5);
 }
+.wrapper1 {
+    margin-left: 15px;
+    border: 2px solid rgba( 255, 255, 255, 0.4);
+    background: rgba( 255, 255, 255, 0.1);
+    border-radius: 6px;
+    box-shadow: 0 15px 20px -12px rgba(0, 0, 0, 0.5);
+}
 
 .quote {
     font-style: italic;
@@ -620,6 +627,63 @@ figure.snip1091.hover figcaption:after {
     padding: 10px 10%;
     font-size: 1.69122em;
 }
+
+/*contact me*/
+.info {
+    text-align: right;
+}
+.info h1 {
+    font-size: 60px;
+    font-family: 'Chau Philomene One', sans-serif;
+    color: #EEEEEE;
+    margin-top: 0;
+}
+
+.info p {
+    color: #EEEEEE;
+    font-size: 15px;
+    font-family: Source Code Pro;
+}
+
+.info p:first-of-type {
+    color: #DAA520;
+    font-size: 20px;
+    font-family: Source Code Pro;
+}
+
+.contact-me input {
+    background: rgba( 255, 255, 255, 0.1);
+    border: 0;
+    padding: 10px 3px;
+    letter-spacing: 2px;
+    color: #2186D9;
+    margin: 32px 0 0 16px;
+}
+.cont{
+    display: inline-block;
+}
+
+textarea {
+    margin: 32px 0 0 16px;
+    background: rgba( 255, 255, 255, 0.1);
+    border: 0;
+    padding: 10px 3px;
+    letter-spacing: 2px;
+    color: #2186D9;
+    width: 533px
+}
+
+button {
+    background: rgba( 255, 255, 255, 0.1);
+    border: 0;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    color: #DAA520;
+    margin-left: 70%;
+    margin-top: 12px;
+    border-radius: 50px;
+}
+
 
 /*Social media icons*/
 
