@@ -686,4 +686,53 @@ button {
 
 
 /*Social media icons*/
+.social {
+  text-align: center;
+  font-size: 2.5em;
+  color: #555;
+  overflow: hidden;
+}
 
+.social a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+ .social i {
+     margin: .3em;
+     cursor: pointer;
+     transition: color 300ms ease, margin-top 300ms ease;
+     transform: translateZ(0);
+ }
+ 
+ i:hover {
+     margin-top: -1px;
+ }
+ 
+ #twitter:hover {
+     color: #77DDF6;
+ }
+ 
+ #github:hover {
+     color: black;
+ }
+ 
+ #linkedin:hover {
+     color: #0177B5;
+ }
+ 
+ #code:hover {
+     color: #29A329;
+ }
+ 
+ #stack:hover {
+     color: #ED780E;
+ }
+ 
+ #plus:hover {
+     color: #D43402;
+ }
+ 
+ #mail:hover {
+     color: #F7B401;
+ }
