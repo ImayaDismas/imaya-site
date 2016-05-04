@@ -15,30 +15,30 @@
 </head>
 
 <body>
-
+    <article id="home">
     <div class="row">
         <div class="small-12 columns">
             <img class="logo" src="img/imaya_logo.png" alt="" />
             <ul>
                 <li>
-                    <a href="#" data-text="Home">Home</a>
+                    <a href="#home" data-text="Home">Home</a>
                 </li>
                 <li>
-                    <a href="#" data-text="About Me">About Me</a>
+                    <a href="#aboutskills" data-text="About Me">About Me</a>
                 </li>
                 <li>
-                    <a href="#" data-text="Skills">Skills</a>
+                    <a href="#aboutskills" data-text="Skills">Skills</a>
                 </li>
                 <li>
-                    <a href="#" data-text="Works">Works</a>
+                    <a href="#portfolio" data-text="Works">Works</a>
                 </li>
                 <li>
-                    <a href="#" data-text="Contact">Contact</a>
+                    <a href="#contact" data-text="Contact">Contact</a>
                 </li>
             </ul>
         </div>
     </div>
-
+    
     <div class="row">
         <div class="small-12 columns">
             <div class="round">
@@ -53,7 +53,7 @@
                                     <h2 data-seq class="seq-title">Dismas Imaya</h2>
                                     <div data-seq class="seq-description">
                                         <p>Android Developer</p>
-                                        <a class="seq-button" href="http://sequencejs.com/" target="_blank">Learn more <span class="seq-next-arrow">&gt;</span></a>
+                                        <a class="seq-button" href="#aboutskills" target="_blank">About    <span class="seq-next-arrow">&gt;</span></a>
                                     </div>
                                 </div>
                             </li>
@@ -65,7 +65,8 @@
             </div>
         </div>
     </div>
-
+    </article>
+    <article id="aboutskills">
     <div class="row">
         <div class="small-6 columns">
             <div class="wrapper">
@@ -89,9 +90,9 @@
             </div>
         </div>
     </div>
+    </article>
 
-
-
+    <article id="portfolio">
     <div class="row port">
         <div class="small-12 columns">
             <h1 class="page_header"> PORTFOLIO</h1>
@@ -150,26 +151,26 @@
             </figure>
         </div>
     </div>
+    </article>
 
-
-
+    <article id="contact">
     <div class="row port">
         <div class="small-12 columns">
             <h1 class="page_header">CONTACT</h1>
         </div>
         <div class="small-6 columns">
             <div class="info">
-              <h1>Get in touch with me, I'll reply as soon as possible.</h1>
-              <p>More info</p>
-              <P>Riverside Drive, Chiromo, Nairobi </p>
-              <p> (+254) 700 415 505 </p>
-              <p>imayadismas@gmail.com</P>
+                <h1>Get in touch with me, I'll reply as soon as possible.</h1>
+                <p>More info</p>
+                <P>Riverside Drive, Chiromo, Nairobi </p>
+                <p> (+254) 700 415 505 </p>
+                <p>imayadismas@gmail.com</P>
             </div>
-            
+
         </div>
         <div class="small-6 columns">
-           
-           <div class="contact-me wrapper1">
+
+            <div class="contact-me wrapper1">
                 <form class="" action="index.html" method="post">
                     <div class="small-4 cont">
                         <input type="text" name="name" value placeholder="Name*:" id="email-text">
@@ -186,21 +187,14 @@
                     <button type="button" name="button">SUBMIT</button>
                 </form>
             </div>
-            
+
         </div>
     </div>
+    </article>
     <div class="row">
         <div class="small-12 columns">
             <div class="footer">
-                <div class="social">
-                  <a href="http://twitter.com/ImayaDismas"><i id="twitter" class="icon-twitter"></i></a>
-                  <i id="github" class="icon-github"></i>
-                  <i id="stack" class="icon-stackexchange"></i>
-                  <i id="linkedin" class="icon-linkedin-sign"></i>
-                  <i id="code" class="icon-code"></i>
-                  <i id="plus" class="icon-google-plus-sign"></i>
-                  <i id="mail" class="icon-envelope"></i> 
-                </div>
+                
             </div>
         </div>
     </div>
@@ -210,9 +204,9 @@
     <script src="js/app.js"></script>
     <script type="text/javascript">
         /*
-                          jQuery codes for smooth scrolling. The following code is from
-                          https://css-tricks.com/snippets/jquery/smooth-scrolling/
-                        */
+                                  jQuery codes for smooth scrolling. The following code is from
+                                  https://css-tricks.com/snippets/jquery/smooth-scrolling/
+                                */
         $(function () {
             $('a[href*=#]:not([href=#])').click(function () {
                 if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -263,117 +257,8 @@
         );
     </script>
     <script type="text/javascript">
-        $(document).ready(function() {
-  $('i').hide();
-})
-
-$(window).load(function() {
-  $('i').show();
-
-  var twitterPos = $('#twitter').position();
-  var githubPos = $('#github').position();
-  var stackPos = $('#stack').position();
-  var linkedinPos = $('#linkedin').position();
-  var codePos = $('#code').position();
-  var plusPos = $('#plus').position();
-  var mailPos = $('#mail').position();
-  var imgPos = $('.me').position();
-  
-  $('i').css({
-    position: 'absolute',
-    zIndex: '1',
-    top: imgPos.top + 100,
-    left: '47%'
-  });
-  
-  setTimeout(function() {
-    $('#twitter').animate({
-      top: twitterPos.top + 10,
-      left: twitterPos.left - 10
-    }, 500);
-  }, 250);
-  
-  setTimeout(function() {
-    $('#twitter').animate({
-      top: twitterPos.top,
-      left: twitterPos.left
-    }, 250);
-    
-    $('#github').animate({
-      top: githubPos.top + 10,
-      left: githubPos.left - 6
-    }, 500);
-  }, 500);
-  
-  setTimeout(function() {
-    $('#github').animate({
-      top: githubPos.top,
-      left: githubPos.left
-    }, 250);
-    
-    $('#stack').animate({
-      top: stackPos.top + 10,
-      left: stackPos.left - 3
-    }, 500);
-  }, 750);
-  
-  setTimeout(function() {
-    $('#stack').animate({
-      top: stackPos.top,
-      left: stackPos.left
-    }, 250);
-    
-    $('#linkedin').animate({
-      top: linkedinPos.top + 10,
-      left: linkedinPos.left
-    }, 500);
-  }, 1000);
-  
-  setTimeout(function() {
-    $('#linkedin').animate({
-      top: linkedinPos.top,
-      left: linkedinPos.left
-    }, 250);
-    
-    $('#code').animate({
-      top: codePos.top + 10,
-      left: codePos.left + 3
-    }, 500);
-  }, 1250);
-  
-  setTimeout(function() {
-    $('#code').animate({
-      top: codePos.top,
-      left: codePos.left
-    }, 250);
-    
-    $('#plus').animate({
-      top: plusPos.top + 10,
-      left: plusPos.left + 6
-    }, 500);
-  }, 1500);
-  
-  setTimeout(function() {
-    $('#plus').animate({
-      top: plusPos.top,
-      left: plusPos.left
-    }, 250);
-    
-    $('#mail').animate({
-      top: mailPos.top + 10,
-      left: mailPos.left + 10
-    }, 500);
-  }, 1750);
-  
-  setTimeout(function() {
-    $('#mail').animate({
-      top: mailPos.top,
-      left: mailPos.left
-    }, 250);
-  }, 2000);
-  
-})
-</script>
+        
+    </script>
 </body>
 
 </html>
