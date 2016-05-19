@@ -28,6 +28,7 @@ body {
 }
 
 .round {
+    margin-top: 130px;
     margin-left: 10px;
     border: 4px dashed goldenrod;
     perspective: 300px;
@@ -35,6 +36,13 @@ body {
 
 
 /*Navigation*/
+.navigation{
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  top: 0;
+  z-index: 3;
+}
 
 ul {
     margin-top: -100px;
