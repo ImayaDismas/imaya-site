@@ -14,7 +14,7 @@ body {
     font-family: Coda, sans-serif;
     overflow-x: hidden;
     /*  background: goldenrod;*/
-    background: url("https://raw.githubusercontent.com/SequenceJS/parallax-basic/581c100405482a7212b476d08b184c11ac0b204e/images/footer_lodyas-blue.png") repeat;
+/*    background: url("https://raw.githubusercontent.com/SequenceJS/parallax-basic/581c100405482a7212b476d08b184c11ac0b204e/images/footer_lodyas-blue.png") repeat;*/
     color: ivory;
     font-size: 1.5em;
     margin: 0;
@@ -38,12 +38,13 @@ body {
 /*Navigation*/
 header {
   position: relative;
-     background: url("https://raw.githubusercontent.com/SequenceJS/parallax-basic/581c100405482a7212b476d08b184c11ac0b204e/images/footer_lodyas-blue.png") repeat;
-/*  background-color: #FD7777;*/
+/*     background: url("https://raw.githubusercontent.com/SequenceJS/parallax-basic/581c100405482a7212b476d08b184c11ac0b204e/images/footer_lodyas-blue.png") repeat;*/
+  background-color: #222;
 /*  padding: 10em 0 8em;*/
+  height: 700px;
   z-index: 2;
 }
-.navigation{
+nav{
   position: fixed;
   width: 100%;
   margin: 0 auto;
@@ -334,7 +335,8 @@ a:hover::after {
     bottom: 0;
     width: 200%;
     height: 100%;
-    background: url("https://raw.githubusercontent.com/SequenceJS/parallax-basic/581c100405482a7212b476d08b184c11ac0b204e/images/footer_lodyas-blue.png") repeat;
+    background-color: #222;
+/*    background: url("https://raw.githubusercontent.com/SequenceJS/parallax-basic/581c100405482a7212b476d08b184c11ac0b204e/images/footer_lodyas-blue.png") repeat;*/
     transition-duration: 1s;
     transition-property: transform;
 }
@@ -436,6 +438,7 @@ a:hover::after {
     }
 }
 
+
 @media only screen and (min-width: 640px) {
     .seq {
         position: relative;
@@ -464,6 +467,7 @@ a:hover::after {
         padding: 0 8em;
     }
 }
+
 
 @media only screen and (min-width: 1024px) {
     .seq .seq-title {
