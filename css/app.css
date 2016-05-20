@@ -11,7 +11,7 @@
 body {
     /*  background-color: #607D8B;*/
     color: #FFFFFF;
-    font-family: Coda, sans-serif;
+    font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
     /*  background: goldenrod;*/
 /*    background: url("https://raw.githubusercontent.com/SequenceJS/parallax-basic/581c100405482a7212b476d08b184c11ac0b204e/images/footer_lodyas-blue.png") repeat;*/
@@ -64,7 +64,7 @@ ul {
     margin-top: -100px;
     display: table;
     white-space: nowrap;
-    margin-left: 44%;
+    margin-left: 42%;
     /*  margin-right: 25%;*/
 }
 
@@ -274,10 +274,9 @@ a:hover::after {
     overflow: hidden;
     margin: 0 auto;
     padding: 0;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Raleway','Droid Sans', sans-serif;
     -webkit-text-size-adjust: 100%;
     color: white;
-    background: #e4e4e4;
 }
 
 .seq button {
@@ -333,7 +332,7 @@ a:hover::after {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 200%;
+    width: 100%;
     height: 100%;
     background-color: #222;
 /*    background: url("https://raw.githubusercontent.com/SequenceJS/parallax-basic/581c100405482a7212b476d08b184c11ac0b204e/images/footer_lodyas-blue.png") repeat;*/
@@ -348,7 +347,7 @@ a:hover::after {
     padding: .875em 1em;
     border-top: white solid 1px;
     color: white;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Raleway', 'Droid Sans', sans-serif;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -379,7 +378,7 @@ a:hover::after {
     margin-bottom: .75em;
     padding: 0 1em;
     font-size: 1.06666667em;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight:bolder;
     text-transform: none;
     text-shadow: none;
@@ -621,8 +620,17 @@ figure.snip1091.hover figcaption:after {
     font-weight: bolder;
     letter-spacing: 1px;
 }
+.page_header1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
 .port{
     margin-top: 70px;
+}
+#contact{
+    background-color: #DAA520;
 }
 /*About section*/
 
@@ -661,7 +669,7 @@ figure.snip1091.hover figcaption:after {
 }
 .info h1 {
     font-size: 60px;
-    font-family: 'Chau Philomene One', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #EEEEEE;
     margin-top: 0;
 }
@@ -673,7 +681,7 @@ figure.snip1091.hover figcaption:after {
 }
 
 .info p:first-of-type {
-    color: #DAA520;
+    color: #FFFFFF;
     font-size: 20px;
     font-family: Source Code Pro;
 }
@@ -683,7 +691,7 @@ figure.snip1091.hover figcaption:after {
     border: 0;
     padding: 10px 3px;
     letter-spacing: 2px;
-    color: #2186D9;
+    color: #000000;
     margin: 32px 0 0 16px;
 }
 .cont{
@@ -696,17 +704,23 @@ textarea {
     border: 0;
     padding: 10px 3px;
     letter-spacing: 2px;
-    color: #2186D9;
-    width: 533px
+    color: #000000;
+    width:91%;
 }
-
+form .small-12{
+    width: 91%;
+}
+form .small-5{
+    width: 44.5%;
+}
 button {
     background: rgba( 255, 255, 255, 0.1);
     border: 0;
     padding: 10px 20px;
     letter-spacing: 2px;
-    color: #DAA520;
-    margin-left: 70%;
+    color: #EEEEEE;
+    font-weight: bolder;
+    margin-left: 62%;
     margin-top: 12px;
     border-radius: 50px;
 }
