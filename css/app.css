@@ -36,12 +36,27 @@ body {
 
 
 /*Navigation*/
+header {
+  position: relative;
+     background: url("https://raw.githubusercontent.com/SequenceJS/parallax-basic/581c100405482a7212b476d08b184c11ac0b204e/images/footer_lodyas-blue.png") repeat;
+/*  background-color: #FD7777;*/
+/*  padding: 10em 0 8em;*/
+  z-index: 2;
+}
 .navigation{
   position: fixed;
   width: 100%;
   margin: 0 auto;
   top: 0;
   z-index: 3;
+}
+#nav-bg {
+  background: #222;
+  position: fixed;
+  height: 5em;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
 
 ul {
