@@ -813,3 +813,13 @@ button {
   background-color: #4183c4;
   background-image: url("../img/github.png");
 }
+
+/*Footer*/
+.footer{
+    padding-top: 2px;
+    text-align: center;
+}
+#footer{
+    margin-top: 6px;
+     background-color: #222;
+}
