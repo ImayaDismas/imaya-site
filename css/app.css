@@ -9,12 +9,9 @@
 }
 
 body {
-    /*  background-color: #607D8B;*/
     color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
-    /*  background: goldenrod;*/
-/*    background: url("https://raw.githubusercontent.com/SequenceJS/parallax-basic/581c100405482a7212b476d08b184c11ac0b204e/images/footer_lodyas-blue.png") repeat;*/
     color: ivory;
     font-size: 1.5em;
     margin: 0;
@@ -24,15 +21,15 @@ body {
 /*Logo*/
 
 .logo {
-    margin-top: -48px;
+    margin-top: -30px;
 }
 
-.round {
-    margin-top: 130px;
-    margin-left: 10px;
-    border: 4px dashed goldenrod;
-    perspective: 300px;
-}
+/*.round {*/
+/*    margin-top: 130px;*/
+/*    margin-left: 10px;*/
+/*    border: 4px dashed goldenrod;*/
+/*    perspective: 300px;*/
+/*}*/
 
 
 /*Navigation*/
@@ -42,7 +39,16 @@ header {
   z-index: 2;
   width: 100%;
   height: 700px;
-  background-image: url("../img/imaya1.jpg");
+  background:
+      -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 10)
+    ), url("../img/imaya1.jpg");
+  background:
+      linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 10)
+    ), url("../img/imaya1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -70,7 +76,7 @@ nav{
 }
 
 nav ul {
-    margin-top: -7%;
+    margin-top: -8%;
     display: table;
     white-space: nowrap;
     margin-left: 55%;
@@ -286,7 +292,7 @@ nav a:hover::after {
     position: relative;
     width: 100%;
     overflow: hidden;
-    margin: 0 auto;
+    margin-top:  130px;
     padding: 0;
     font-family: 'Raleway','Droid Sans', sans-serif;
     -webkit-text-size-adjust: 100%;
@@ -324,7 +330,7 @@ nav a:hover::after {
 .seq .seq-valign:before,
 .seq .seq-valign > * {
     display: inline-block;
-    vertical-align: middle;
+    vertFical-align: middle;
 }
 
 .seq .seq-valign > * {
@@ -348,8 +354,7 @@ nav a:hover::after {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: #222;
-/*    background: url("https://raw.githubusercontent.com/SequenceJS/parallax-basic/581c100405482a7212b476d08b184c11ac0b204e/images/footer_lodyas-blue.png") repeat;*/
+    background-color: transparent;
     transition-duration: 1s;
     transition-property: transform;
 }
@@ -357,7 +362,6 @@ nav a:hover::after {
 .seq .seq-button {
     display: inline-block;
     margin: 0 auto;
-    margin-top: 1em;
     padding: .875em 1em;
     border-top: white solid 1px;
     color: white;
@@ -374,14 +378,13 @@ nav a:hover::after {
 }
 
 .seq .seq-button:hover .seq-next-arrow {
-    transform: translateX(6px);
+    transform: translateY(6px);
 }
 
 .seq .seq-title {
     font-size: 5.375em;
     margin: 0;
-    text-align: center;
-    padding: 0 12%;
+    text-align: left;
     font-weight: bolder;
     text-transform: uppercase;
     line-height: 1.3;
@@ -390,13 +393,13 @@ nav a:hover::after {
 
 .seq p {
     margin-bottom: .75em;
-    padding: 0 1em;
     font-size: 1.06666667em;
     font-family: 'Raleway', sans-serif;
     font-weight:bolder;
     text-transform: none;
     text-shadow: none;
     line-height: 140%;
+    margin-right: 3%;
 }
 
 .seq .seq-description {
