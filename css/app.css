@@ -24,7 +24,7 @@ body {
 /*Logo*/
 
 .logo {
-    margin-top: -30px;
+    margin-top: -48px;
 }
 
 .round {
@@ -38,12 +38,18 @@ body {
 /*Navigation*/
 header {
   position: relative;
-/*  background: url("../img/imaya1.jpg");*/
-  background-color: #222;
 /*  padding: 10em 0 8em;*/
-  height: 700px;
   z-index: 2;
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/imaya1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color: rgb(28, 28, 28);
 }
+
 nav{
   position: fixed;
   width: 100%;
@@ -54,18 +60,21 @@ nav{
 #nav-bg {
   background: #222;
   position: fixed;
-  height: 5em;
+  height: 3em;
   width: 100%;
   top: 0;
   z-index: 1;
 }
+#home img{
+    height: 150px
+}
 
 nav ul {
-    margin-top: -100px;
+    margin-top: -7%;
     display: table;
     white-space: nowrap;
-    margin-left: 42%;
-    /*  margin-right: 25%;*/
+    margin-left: 55%;
+    font-weight: bolder;
 }
 
 
@@ -668,7 +677,7 @@ figure.snip1091.hover figcaption:after {
     font-size: 1.69122em;
 }
 #aboutskills{
-    background: url("../img/imaya1.jpg");
+/*    background: url("../img/imaya1.jpg");*/
 }
 
 
