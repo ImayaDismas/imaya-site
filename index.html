@@ -20,7 +20,7 @@
         <nav>
             <div class="row">
                 <div class="small-12 columns">
-                    <img class="logo" src="img/imaya_logo.png" alt="" />
+                    <img class="logo" src="img/imaya_logo.png" alt="Imaya Dismas" />
                     <ul>
                         <li>
                             <a href="#home" data-text="Home">Home</a>
@@ -224,7 +224,7 @@
         <div class="small-12 columns">
             <div class="footer">
             
-            <h6>Made with love by <font color="#DAA520">SwifTech Solutions &copy; 2016</font></h6>
+            <h6><font color="#DAA520">&copy; 2016 Imaya Dismas. </font>All rights reserved</h6>
 
             </div>
         </div>
@@ -235,50 +235,7 @@
     <script src="js/app.js"></script>
     <script src="js/index.js"></script>
     <script type="text/javascript">
-        /*
-                                          jQuery codes for smooth scrolling. The following code is from
-                                          https://css-tricks.com/snippets/jquery/smooth-scrolling/
-                                        */
-        $(function () {
-            $('a[href*=#]:not([href=#])').click(function () {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 700);
-                        return false;
-                    }
-                }
-            });
-        });
-
-        /*
-          Back to top scroll button. The following code is from
-          http://jsfiddle.net/gilbitron/Lt2wH/
-        */
-        if ($('#back-to-top').length) {
-            var scrollTrigger = 100, // px
-                backToTop = function () {
-                    var scrollTop = $(window).scrollTop();
-                    if (scrollTop > scrollTrigger) {
-                        $('#back-to-top').addClass('show');
-                    } else {
-                        $('#back-to-top').removeClass('show');
-                    }
-                };
-            backToTop();
-            $(window).on('scroll', function () {
-                backToTop();
-            });
-            $('#back-to-top').on('click', function (e) {
-                e.preventDefault();
-                $('html,body').animate({
-                    scrollTop: 0
-                }, 700);
-            });
-        }
+        
     </script>
     <script type="text/javascript">
         /* Demo purposes only */

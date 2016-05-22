@@ -38,7 +38,7 @@ body {
 /*Navigation*/
 header {
   position: relative;
-/*     background: url("https://raw.githubusercontent.com/SequenceJS/parallax-basic/581c100405482a7212b476d08b184c11ac0b204e/images/footer_lodyas-blue.png") repeat;*/
+/*  background: url("../img/imaya1.jpg");*/
   background-color: #222;
 /*  padding: 10em 0 8em;*/
   height: 700px;
@@ -264,6 +264,11 @@ nav a:hover::after {
     width: 100%;
     height: 100%;
 }
+/*
+#home{
+    background: url("../img/imaya1.jpg");
+}
+*/
 
 
 /*Home*/
@@ -652,16 +657,20 @@ figure.snip1091.hover figcaption:after {
 
 .quote {
     font-style: italic;
-    font-family: Marion;
+    font-family: 'Raleway';
     padding: 32px 10%;
     font-size: 2em;
 }
 .skills{
     font-style: italic;
-    font-family: Marion;
+    font-family: 'Raleway';
     padding: 10px 10%;
     font-size: 1.69122em;
 }
+#aboutskills{
+    background: url("../img/imaya1.jpg");
+}
+
 
 /*contact me*/
 .info {
