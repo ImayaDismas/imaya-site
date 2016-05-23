@@ -18,30 +18,3 @@ $(window).on('scroll', function () {
     }
   
 });
-
-$("#HomeButton").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#home").offset().top},
-        'slow');
-});
-
-$("#AboutButton").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".wrapper2").offset().top},
-        'slow');
-});
-$("#SkillsButton").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#skills").offset().top},
-        'slow');
-});
-$("#PortfolioButton").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#portfolio").offset().top},
-        'slow');
-});
-$("#ContactButton").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#contact").offset().top},
-        'slow');
-});
