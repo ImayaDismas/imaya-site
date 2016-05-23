@@ -657,6 +657,14 @@ figure.snip1091.hover figcaption:after {
 
 .wrapper {
     margin-left: 15px;
+    border: 2px solid rgba( 255, 255, 255, 0.4);
+    background: rgba( 255, 255, 255, 0.1);
+    border-radius: 6px;
+    box-shadow: 0 15px 20px -12px rgba(0, 0, 0, 0.5);
+}
+.wrapper2 {
+    height: 700px;
+    margin-left: 15px;
     margin-top: 70px;
     border: 2px solid rgba( 255, 255, 255, 0.4);
     background: rgba( 255, 255, 255, 0.1);
@@ -672,19 +680,20 @@ figure.snip1091.hover figcaption:after {
 }
 
 .quote {
-    font-style: italic;
     font-family: 'Raleway';
     padding: 32px 10%;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .skills{
-    font-style: italic;
     font-family: 'Raleway';
     padding: 10px 10%;
     font-size: 1.69122em;
 }
 #aboutskills{
-/*    background: url("../img/imaya1.jpg");*/
+    background: #222;
+}
+#skills{
+    background: #222;
 }
 
 
